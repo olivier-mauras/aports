@@ -25,7 +25,7 @@ package() {
 
 _py2() {
 	replaces="$pkgname"
-	depends="py2-backports_abc py2-certifi py2-singledispatch"
+	depends="py-backports_abc py2-certifi py2-singledispatch"
 	_py python2
 }
 
